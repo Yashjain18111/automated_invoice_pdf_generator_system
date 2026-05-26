@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice {{ invoice_number }}</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; color: #1f2937; }
+    .header { display: flex; justify-content: space-between; margin-bottom: 24px; }
+    .brand { font-size: 22px; font-weight: bold; }
+    .section-title { margin-top: 20px; font-size: 14px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.5px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #d1d5db; padding: 8px; text-align: left; font-size: 13px; }
+    th { background: #f3f4f6; }
+    .totals { margin-top: 20px; float: right; width: 280px; }
+    .totals td { border: none; padding: 4px 0; }
+    .grand { font-weight: bold; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <div class="brand">{{ company_name }}</div>
+      <div>{{ company_address }}</div>
+      <div>{{ company_email }}</div>
+    </div>
+    <div>
+      <div><strong>Invoice:</strong> {{ invoice_number }}</div>
+      <div><strong>Issue Date:</strong> {{ issue_date }}</div>
+      <div><strong>Due Date:</strong> {{ due_date }}</div>
+    </div>
+  </div>
+  <div class="section-title">Bill To</div>
+  <div>{{ customer_name }}</div>
+  <div>{{ customer_email }}</div>
+  <div>{{ customer_address }}</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Qty</th>
+        <th>Unit Price</th>
+        <th>Tax</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in line_items %}
+      <tr>
+        <td>{{ row.item_description }}</td>
+        <td>{{ row.quantity }}</td>
+        <td>{{ row.unit_price }}</td>
+        <td>{{ row.tax_amount }}</td>
+        <td>{{ row.line_total }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="totals">
+    <tr><td>Subtotal:</td><td>{{ subtotal }}</td></tr>
+    <tr><td>Tax:</td><td>{{ tax_total }}</td></tr>
+    <tr class="grand"><td>Grand Total:</td><td>{{ total_due }}</td></tr>
+  </table>
+</body>
+</html>
+

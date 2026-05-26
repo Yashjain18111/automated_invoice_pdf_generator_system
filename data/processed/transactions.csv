@@ -1,0 +1,6 @@
+transaction_id,transaction_date,customer_id,customer_name,customer_email,item_description,quantity,unit_price,tax_rate,due_in_days,currency,customer_address
+TXN-1001,2026-05-01,CUST-001,ABC Technologies,finance@abctech.com,Laptop,2,55000,0.18,30,USD,"New York, USA"
+TXN-1002,2026-05-02,CUST-002,Zenith Solutions,accounts@zenith.com,Consulting Service,10,2500,0.18,15,USD,"California, USA"
+TXN-1003,2026-05-03,CUST-003,Global Traders,billing@globaltraders.com,Office Chair,15,4500,0.12,20,USD,"Texas, USA"
+TXN-1004,2026-05-04,CUST-004,Nova Retail,finance@novaretail.com,Printer,5,12000,0.18,25,USD,"Florida, USA"
+TXN-1005,2026-05-05,CUST-005,BlueSky Pvt Ltd,accounts@bluesky.com,A4 Paper Pack,50,350,0.05,30,USD,"Chicago, USA"

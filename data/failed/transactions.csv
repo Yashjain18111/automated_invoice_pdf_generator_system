@@ -1,0 +1,11 @@
+invoice_id,customer_name,email,customer_gstin,item_category,item_name,quantity,unit_price,discount_percent,tax_percent,invoice_date,due_date,payment_status
+INV-2026-0001,ABC Technologies,finance@abctech.com,29ABCDE1234F1Z5,Electronics,Laptop,2,55000,5,18,2026-05-01,2026-05-15,Paid
+INV-2026-0002,Zenith Solutions,accounts@zenith.com,27PQRSX5678L1Z2,Services,Consulting Service,10,2500,0,18,2026-05-02,2026-05-17,Pending
+INV-2026-0003,Global Traders,billing@globaltraders.com,24MNOPQ4321T1Z8,Furniture,Office Chair,15,4500,10,12,2026-05-03,2026-05-18,Overdue
+INV-2026-0004,Nova Retail,finance@novaretail.com,19JKLMN9876K1Z3,Electronics,Printer,5,12000,3,18,2026-05-04,2026-05-20,Paid
+INV-2026-0005,BlueSky Pvt Ltd,accounts@bluesky.com,33AABBX1111H1Z9,Stationery,A4 Paper Pack,50,350,0,5,2026-05-05,2026-05-22,Pending
+INV-2026-0006,Vertex Industries,ap@vertex.com,07QWERT5678Y1Z6,Services,Software Subscription,3,18000,8,18,2026-05-06,2026-05-25,Paid
+INV-2026-0007,Alpha Corp,finance@alphacorp.com,30LKJHG9876D1Z1,Electronics,Monitor,8,14000,5,18,2026-05-07,2026-05-27,Pending
+INV-2026-0008,NextGen Systems,billing@nextgen.com,09ZXCVB5432P1Z4,Furniture,Meeting Table,2,25000,7,12,2026-05-08,2026-05-30,Overdue
+INV-2026-0009,Prime Logistics,accounts@primelogistics.com,32HGFDS6789R1Z7,Services,Cloud Hosting,6,8000,0,18,2026-05-09,2026-06-01,Paid
+INV-2026-0010,Sunrise Enterprises,finance@sunrise.com,22BNMAS2345X1Z0,Stationery,Notebook Pack,100,120,2,5,2026-05-10,2026-06-05,Pending

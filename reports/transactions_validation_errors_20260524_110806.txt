@@ -1,0 +1,1 @@
+Missing required columns: transaction_id, transaction_date, customer_id, customer_email, item_description

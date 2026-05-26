@@ -1,0 +1,6 @@
+invoice_id,customer_name,email,customer_gstin,item_category,item_name,quantity,unit_price,discount_percent,tax_percent,invoice_date,due_date,payment_status
+INV-2026-0011,,finance@test.com,29ABCDE1234F1Z5,Electronics,Laptop,2,55000,5,18,2026-05-01,2026-05-15,Paid
+INV-2026-0012,Test Corp,invalid-email,27PQRSX5678L1Z2,Services,Consulting,5,2500,0,18,2026-05-02,2026-05-17,Pending
+INV-2026-0013,Negative Qty,billing@test.com,24MNOPQ4321T1Z8,Furniture,Desk,-2,4500,10,12,2026-05-03,2026-05-18,Overdue
+INV-2026-0014,Wrong Tax,finance@test.com,19JKLMN9876K1Z3,Electronics,Printer,5,12000,3,45,2026-05-04,2026-05-20,Paid
+INV-2026-0014,Duplicate Invoice,finance@test.com,19JKLMN9876K1Z3,Electronics,Printer,5,12000,3,18,2026-05-04,2026-05-20,Paid

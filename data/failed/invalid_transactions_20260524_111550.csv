@@ -1,0 +1,6 @@
+transaction_id,transaction_date,customer_id,customer_name,customer_email,item_description,quantity,unit_price,tax_rate,due_in_days,currency,customer_address
+TXN-2001,2026-05-01,CUST-101,,finance@test.com,Laptop,2,55000,0.18,30,USD,"Boston, USA"
+TXN-2002,invalid-date,CUST-102,Test Corp,invalid-email,Consulting,5,2500,0.18,15,USD,"Seattle, USA"
+TXN-2003,2026-05-03,CUST-103,Negative Qty,billing@test.com,Desk,-2,4500,0.12,20,USD,"Austin, USA"
+TXN-2004,2026-05-04,CUST-104,Wrong Tax,finance@test.com,Printer,5,12000,-0.18,25,USD,"Miami, USA"
+TXN-2005,2026-05-05,,Missing Customer ID,accounts@test.com,Paper Pack,10,abc,0.05,-10,USD,"Denver, USA"

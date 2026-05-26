@@ -1,0 +1,8 @@
+Column 'customer_id' has blank values at rows: 6
+Column 'customer_name' has blank values at rows: 2
+Column 'quantity' has negative values at rows: 4
+Column 'unit_price' has invalid numeric values at rows: 6
+Invalid transaction_date values at rows: 3
+Invalid customer_email format at rows: 3
+Negative tax_rate values at rows: 5
+Negative due_in_days values at rows: 6
